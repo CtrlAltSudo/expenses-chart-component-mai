@@ -24,10 +24,7 @@ main {
     min-height: 100vh;
 }
 
-#containers {
-    display: flex;
-    flex-direction: column;
-}
+
 ul {
     list-style: none;
     display: flex;
@@ -35,7 +32,6 @@ ul {
 }
 #summary {
     border: 1px solid transparent;
-    width: 25rem;
     margin-bottom: 1rem;
     border-radius: 1rem;
     display: flex;
@@ -49,8 +45,10 @@ ul {
     height: auto;
 }
 #summary h1 {
-    font-size: 1rem;
-    margin-bottom: 0.5rem;
+    font-size: 0.8rem;
+    margin-bottom: 0.3rem;
+    font-weight: 400;
+    color: var(--veryPaleOrange);
 }
 #summary p {
     font-size: 1.5rem;
@@ -69,7 +67,6 @@ ul {
 }
 .line {
     border-bottom: 1px solid var(--cream);
-    width: 100%;
     display: block;
     margin-bottom: 1.5rem;
 }
