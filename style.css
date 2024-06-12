@@ -28,7 +28,10 @@ main {
 ul {
     list-style: none;
     display: flex;
-    gap: 1rem;
+    justify-content: space-around;
+    padding: 0 0 0.5rem 0;
+    font-size: 0.8rem;
+    color: var(--mediumBrown);
 }
 #summary {
     border: 1px solid transparent;
@@ -60,6 +63,9 @@ ul {
     background-color: var(--veryPaleOrange);
     border-radius: 1rem;
     padding: 2rem;
+}
+#chart h1 {
+    margin: 0;
 }
 #stats {
     display: flex;
