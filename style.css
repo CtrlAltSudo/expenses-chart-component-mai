@@ -24,15 +24,28 @@ main {
     min-height: 100vh;
 }
 
-ul {
-    list-style: none;
+#charts {
     display: flex;
     justify-content: space-around;
+}
+
+ul {
+    list-style: none;
     padding: 0;
     font-size: 0.8rem;
     color: var(--mediumBrown);
+    width: 30px;
+    height: 30px;
+    background-color: var(--softRed);
+    border-radius: 0.2rem;
+    text-align: center;
 }
+ul li {
+    margin-top: 1rem;
+    padding-top: 1rem;
+    font-size: 0.rem;
 
+}
 #summary {
     border: 1px solid transparent;
     margin-bottom: 1rem;
@@ -63,6 +76,7 @@ ul {
     background-color: var(--veryPaleOrange);
     border-radius: 1rem;
     padding: 2rem;
+
 }
 #chart h1 {
     margin: 0;
@@ -74,7 +88,7 @@ ul {
 .line {
     border-bottom: 1px solid var(--cream);
     display: block;
-    margin-bottom: 1.5rem;
+    margin: 1.5rem 0 1.5rem 0;
 }
 
 #overviewMonth h2, .lastMonth {
